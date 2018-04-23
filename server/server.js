@@ -5,7 +5,7 @@ let bodyParser = require('body-parser');
 
 // uses
 app.use(express.static('server/public'));
-app.use(bodyParser( bodyparser.urlencoded({extended: true})));
+app.use(bodyParser( bodyParser.urlencoded({extended: true})));
 
 //globals
 const PORT = 5000;
